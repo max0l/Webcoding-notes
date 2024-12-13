@@ -1,0 +1,27 @@
+input-files:
+  - title.md
+  - "Lecture 1.md"
+  - "Lecture 2 HTML Basics.md"
+  - "Lecture 3 Last HTML.md"
+  - "Lecture 4 CSS.md"
+  - "Lecture 5 Typography.md"
+  - "Lecture 6 CSS and Images.md"
+  - "Lecture 7 positioning, layouts and media queries.md"
+  - "Lecture 8 Flex.md"
+  - "Lecture 9 Grid.md"
+  - "Lecture 10 CSS Anim.md"
+  - "Lecture 11.md"
+embed-resources: true
+file-scope: false # Parse each file individually before combining for multifile documents. This will allow footnotes in different files with the same identifiers to work as expected. If this option is set, footnotes and links will not work across files.
+# highlight-style: pygments
+reference-location: block # block, section, or document
+resource-path: []
+standalone: true
+top-level-division: default # part, chapter, section, or default
+verbosity: ERROR # ERROR, WARNING, or INFO
+pdf-engine: xelatex
+from: markdown
+to: pdf
+output-file: paper-column.pdf
+toc-depth: 4
+highlight-style: haddock
