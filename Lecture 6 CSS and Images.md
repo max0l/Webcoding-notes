@@ -73,7 +73,7 @@ Graphic types commonly used on web pages:
   Image Optimization:
 - Reduce the file size of the image
 - Reduce the dimensions of the image to the actual width and height of the image on the web page
-- Reduce the quality of the image (Blur, Colours -> Black and white)
+- Reduce the quality of the image (Blur, Colours \rightarrow Black and white)
 
 Helps for Search engine _indexing_ and user experience / usability
 
@@ -99,11 +99,11 @@ img.medium {
 .../* This does not change the image itself. CSS is only the presentation layer*/;
 ```
 
--> Layout shift
+\rightarrow Layout shift
 
 - Specifying image sizes may help pages, for example, to load the content more smoothly. This is because the HTML and CSS code will often load before the images, and telling the browser how much space to leave for an image allows it to render the rest of the page without waiting for the image to download
 
-Should we use absolute sizes or relative? (Open question) -> Combination of both
+Should we use absolute sizes or relative? (Open question) \rightarrow Combination of both
 
 ### Images without dimensions
 
@@ -116,7 +116,7 @@ Should we use absolute sizes or relative? (Open question) -> Combination of both
 
 ### Flexible images
 
--> Cumulative layout shift
+\rightarrow Cumulative layout shift
 
 ```css
 img {
@@ -128,7 +128,7 @@ img {
 Predefine image space so If the Image loads later, the text won't get pushed around.
 
 web.dev otpimize
--> It is inserted directly in the HTML
+\rightarrow It is inserted directly in the HTML
 
 ## Responsive Images HTML 5.1 Picture Element
 
@@ -142,7 +142,7 @@ web.dev otpimize
 </picture>
 ```
 
-Browser will decide which image to get -> saves band width
+Browser will decide which image to get \rightarrow saves band width
 
 or
 
@@ -167,7 +167,7 @@ img.align-left {
 ```
 
 Can be created to wrap text around images.
-ONLY USE IF FLAOT 100% NEEDED! -> BAD RESPONSIVENESS!
+ONLY USE IF FLAOT 100% NEEDED! \rightarrow BAD RESPONSIVENESS!
 Use grid or flags instead!
 
 ### Centring images using css
@@ -204,7 +204,7 @@ p {
 (no quotation marks in urls)
 
 `background-image`
-Does it count as content? No -> CSS is only used for style
+Does it count as content? No \rightarrow CSS is only used for style
 
 `baclground-repeat: repeat-x/repeat-y/repeat/no-repeat`
 Is used to repeat the image so it fills the block
@@ -228,7 +228,7 @@ Shorthand notation: `background: #ffffff url(images/tulip.gif) no-repeat top rig
 
 ### What selector do I use to set up a background image for the entire website?
 
--> Body
+\rightarrow Body
 
 ### Gradients
 

@@ -1,1 +1,1 @@
-pandoc --listings -H .\code.tex --defaults=./pdf.yaml
+pandoc --toc --listings -H .\code.tex --defaults=./pdf.yaml

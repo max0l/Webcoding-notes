@@ -3,13 +3,13 @@
 What is a self-contained unit of discourse in writing dealing with a particular point or idea?
 What HTML tag is used for this purpose?: Paragraph: `<p>`
 
-HTML Elements between `<html></html>`-> `<hea>` (Metainformation), `<body>` (Contents)
+HTML Elements between `<html></html>` \rightarrow `<head>` (Metainformation), `<body>` (Contents)
 
-How many section headings are there in html: 6 headings, (s1) 6 -> s1 to s6
+How many section headings are there in html: 6 headings, (s1) 6 \rightarrow s1 to s6
 
 What is NOT the `<br>` tag used for: Making a new paragraph!!!!!
 
-What is HTML used for: STRUCTURE THE CONTENTS (Text, Lists, Links, Images, Tables, Forms) -> Giving meaning to the contents
+What is HTML used for: STRUCTURE THE CONTENTS (Text, Lists, Links, Images, Tables, Forms) \rightarrow Giving meaning to the contents
 
 What is CSS used for: Presentation + Layout
 
@@ -44,6 +44,8 @@ Creating a page involves adding tags to content. These Tags are known as "markup
 
 #### What is it?
 
+$\ \\ $
+
 - Set of elemts, for example:
   - `<em>` tag adds emphasis
   - `<blockquote>` contains a quote
@@ -66,6 +68,8 @@ Creating a page involves adding tags to content. These Tags are known as "markup
 
 ##### Blockquote
 
+\
+
 ```html
 <blockquote cite="https://example.com>
 <p></p>
@@ -76,6 +80,8 @@ The url: A URL that designates a source document or message for the information 
 
 ##### Inline quote:
 
+\
+
 ```html
 <p>He said <q>lol</q>.</p>
 ```
@@ -84,6 +90,8 @@ Quoting a specific Paragraph. Quotation marks will be automatically set: He said
 
 ##### Abbreviations & Acronyms
 
+\
+
 ```html
 <p><abbr title="Professor">Prof</abbr> Müller...</p>
 ```
@@ -91,6 +99,8 @@ Quoting a specific Paragraph. Quotation marks will be automatically set: He said
 There is no `<acronym>` use `<abbr>` instead
 
 ##### Definitions and Citations
+
+\
 
 ```html
 <p><cite>The Book</cite> by Someone</p>
@@ -107,6 +117,8 @@ Inside a Paragraph we have a Definition and some Text. (Visualize the Hierarchy)
 
 ##### Author Details
 
+\
+
 ```html
 <address>
   <p><a ="href" ="x@example.com">x@exampel.com</a></p>
@@ -117,6 +129,8 @@ Inside a Paragraph we have a Definition and some Text. (Visualize the Hierarchy)
 The Contact Address element, provides contact information for a person or organisation. Can have `<p>`, but not necessary. Can also have `<br>` to make new lines (for addresses/streets)
 
 ##### Changes to Content
+
+\
 
 ```html
 <p> It was the <del>worst</del><ins>Best</ins></p>
@@ -156,7 +170,7 @@ Useful for addresses
 ##### Horizontal Rules
 
 `<p>Topic 1</p>`
-`<hr>` -> Semantik Break, other topic. Has a Semantik Meaning
+`<hr>` \rightarrow Semantik Break, other topic. Has a Semantik Meaning
 `<p>Topic 2</p>`
 
 #### Lists
@@ -220,4 +234,4 @@ It is possible to have lists inside lists
 
 ### What are Flow Contents?
 
--> Can be used inside other Contents?
+\rightarrow Can be used inside other Contents?

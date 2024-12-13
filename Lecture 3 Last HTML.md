@@ -105,12 +105,12 @@ Every HTML element has a default display value depending on what type of element
 ### div
 
 - Groups elements into a block-level element
-- (Takes the whole block/space). Eg. Background colour for a paragraph -> We group those with div
+- (Takes the whole block/space). Eg. Background colour for a paragraph \rightarrow We group those with div
 
 ### span
 
 - Groups elements inline
-- For example: When you have two words that need to be in one Group, so we can apply something to it (for example `<b>Two </b>, <b> Words</b>` -> To apply the same css -> `<span><b>Two</b> <b>Words</b>`)
+- For example: When you have two words that need to be in one Group, so we can apply something to it (for example `<b>Two </b>, <b> Words</b>` \rightarrow To apply the same css \rightarrow `<span><b>Two</b> <b>Words</b>`)
 
 ```html
 <p> Some <span class="gallery">Something</span> something else.</p>
@@ -122,7 +122,7 @@ Every HTML element has a default display value depending on what type of element
 ![html5-layout-elements](./assets/layout_elements.png)
 same as `<div id="header">,...`
 
-- Does it has to be an Article? Ask yourself if it makes sense if the object has it's own url -> if yes it can be an article
+- Does it has to be an Article? Ask yourself if it makes sense if the object has it's own url \rightarrow if yes it can be an article
 
 - Header `<heaer></header>` Contains the headings
 - nav element

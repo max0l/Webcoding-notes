@@ -59,7 +59,7 @@ To use the grid layout, we need to set the display property on the parent elemen
   display: grid;
   grid-template-rows: 20% 1fr 20%;
   grid-template-columns: 100px max-content 1fr;
-  /* none/auto/max-content/min-content/length/initial/inherit; */
+  /* none / auto / max-content / min-content / length / initial / inherit; */
 }
 ```
 
@@ -172,7 +172,7 @@ Used to define template areas
 ```
 grid-row-gap: 1em;
 grid-column-gap: 3em;
-grid-gap: row-gep-legth column-gat-length -> grid-gap: 1em 3em; = shorthand
+grid-gap: row-gep-legth column-gat-length \rightarrow grid-gap: 1em 3em; = shorthand
 ```
 
 #### justify-items
@@ -299,3 +299,8 @@ Shorthand for `<align-tems> / <justify-items>`
   place-items: end;
 }
 ```
+
+## Difference between flex and Grid
+
+!!! warning Difference between Flex and grid
+  Flex: single dimension. Grid: 2 dimension

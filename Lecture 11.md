@@ -50,6 +50,8 @@ How is it know the way to rotate, relocate, resize, and skew HTML elements in bo
 
 #### Text input
 
+\
+
 ```html
 
 ```
@@ -57,6 +59,8 @@ How is it know the way to rotate, relocate, resize, and skew HTML elements in bo
 use `<label>` and not `<p>` !!!
 
 #### Text area
+
+\
 
 ```
 

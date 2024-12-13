@@ -1,9 +1,9 @@
 # Questions:
 
 1. CSS treats each element as if it creates its own **BOX**
-2. Whats the difference between total hight/width and hight/width? -> total is everyhting (Padding, Margin, ...), width/hight alone is applied to the content alone (not the stuff arrounf)
-3. Whats the difference between `display:none` and `visibility:hidden`?->`Display:none` removes the element (removes it, as it does not exists), `visibility:hidden just does not show it (gaps would still stay)
-4. Which selector would you use to only select ALL the CHILDREN sitting inside a `<div>`? -> `div>* {}`
+2. Whats the difference between total hight/width and hight/width? \rightarrow total is everyhting (Padding, Margin, ...), width/hight alone is applied to the content alone (not the stuff arrounf)
+3. Whats the difference between `display:none` and `visibility:hidden`?\rightarrow`Display:none` removes the element (removes it, as it does not exists), `visibility:hidden just does not show it (gaps would still stay)
+4. Which selector would you use to only select ALL the CHILDREN sitting inside a `<div>`? \rightarrow `div>* {}`
 
 # Typography Theory
 
@@ -86,7 +86,7 @@ body {
 }
 ```
 
-The order is like this: Desired font -> Font stack -> Fallback font family
+The order is like this: Desired font \rightarrow Font stack \rightarrow Fallback font family
 
 - Font family is inherited
 - A browser will usually only display a font if it's installed on the user's computer

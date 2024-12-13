@@ -17,6 +17,7 @@ papersize: a4
 documentclass: article
 classoption: twocolumn
 CJKmainfont: "Microsoft JhengHei"
+toc-depth: 4
 
 # LaTeX
 # classoption: [titlepage, openright, DIV=calc, toc=listof, listof=nochaptergap]

@@ -1,16 +1,16 @@
 # Questions
 
 What form of absolute positioning positions the element in relation to the browser window (not the parent container)?
--> Position: Fixed
+\rightarrow Position: Fixed
 
 Which CSS at-rule allows you to link to typefaces that are not installed on the users computer?
--> Font-face?
+\rightarrow Font-face?
 
 When an element is floated, which display value is the element set in?
--> Block
+\rightarrow Block
 
 When using te float property, which other property are you most likely to need?
--> Width
+\rightarrow Width
 
 # Flexbox
 
@@ -32,7 +32,7 @@ When using te float property, which other property are you most likely to need?
 
 ### Display: flex
 
-- The is `flex` and `inline-flex` -> the `flex-container` only takes up as much space as it needs
+- The is `flex` and `inline-flex` \rightarrow the `flex-container` only takes up as much space as it needs
 
 ```css
 .flex-container {
@@ -172,8 +172,8 @@ The flex-basis determines how the flex growth and shrink factors are implemented
 }
 ```
 
--> The flex item will start out at 80px and can grow to fill up the available space
--> The flex item will start out at 80px but then shrink to fit the space available with the other items being at least min-content sized.
+\rightarrow The flex item will start out at 80px and can grow to fill up the available space
+\rightarrow The flex item will start out at 80px but then shrink to fit the space available with the other items being at least min-content sized.
 
 #### flex (shorthand)
 

@@ -24,4 +24,4 @@ from: markdown
 to: pdf
 output-file: paper-column.pdf
 toc-depth: 4
-highlight-style: haddock
+highlight-style: haddock # pygments haddock

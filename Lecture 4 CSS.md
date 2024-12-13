@@ -15,7 +15,7 @@ p {
 `p` = selector
 `font-family: Arial;` = declaration
 
-- Multiple elements can be addressed when listing them with `,` -> `h1, h2, ... {}`
+- Multiple elements can be addressed when listing them with `,` \rightarrow `h1, h2, ... {}`
 - It's always `property: value;`
 
 ```css
@@ -112,7 +112,7 @@ The last mentioned style is preferred. If the external and embedded CSS modify t
 - Child (direct descendants/first level) `li>a {}`
 - Descendent (all) `p a {}`
 - Adjacent sibling (only the first `p` after every `h1` at the same level) `h1+p {}`
-- General sibling (same level of hierarchy and every p sibling of h1 -> everything after h1 at the same level)`h1~p {}`
+- General sibling (same level of hierarchy and every p sibling of h1 \rightarrow everything after h1 at the same level)`h1~p {}`
 
 ### Specificity
 
@@ -196,7 +196,7 @@ p {
 
 **Important:**
 
-- When you set the width and height properties of an element with CSS, you just set the width and height of the content area. To calculate the full size of an element, you must also add padding, borders and margins. -> content = height/width
+- When you set the width and height properties of an element with CSS, you just set the width and height of the content area. To calculate the full size of an element, you must also add padding, borders and margins. \rightarrow content = height/width
 - By default in the CSS box model, the width and height you assign to an element is applied only to the element's content box. If the element has any border or padding, this is then added to the width and height to arrive at the size of the box that's rendered on the screen. This means that when you set width and height, you have to adjust the value you give to allow for any border or padding that may be added.
 - The entire box (content+padding+border+margin = total height/width)
 - Or setting the property `box-sizing` to `border-box`
