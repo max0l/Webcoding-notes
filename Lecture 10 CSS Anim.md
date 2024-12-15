@@ -14,6 +14,7 @@
 ## CSS transitions
 
 Apply a style smoothly or gradually
+
 - Which CSS property to change (**transistion-property**)
 - How long it should take (**transition-duration**)
 - The manner in which the transition accelerates (**transition-timing-function**)
@@ -104,7 +105,6 @@ Transforms the size. Use the `scaleX(horizontal)`, `scaleY(vertical)` or `scale(
 }
 ```
 
-
 ### skew (warp/strach)
 
 Use the `skewX(horizontal)`, `skewY(vertical)` or `skew(horizontal, vertical)` to change the angle of either the horizontal or vertical axis (or both axes) by a specified number of degrees
@@ -114,6 +114,7 @@ Use the `skewX(horizontal)`, `skewY(vertical)` or `skew(horizontal, vertical)` t
   transform: skewX(15deg);
 }
 ```
+
 ### transform origin
 
 - to indicate from which point the element will be rotated

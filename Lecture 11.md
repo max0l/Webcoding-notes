@@ -83,7 +83,7 @@ use `<label>` and not `<p>` !!!
 <p>Your favorite genre:
   <input type="radio" name="genre" value="rock" checked="checked"/> Rock
   <input type="radio" name="genre"value="pop"/> Pop
-</p> 
+</p>
 ```
 
 #### Checkbox
@@ -173,14 +173,17 @@ use `<label>` and not `<p>` !!!
 
 > Universal design is design that's usable by all people, to the greatest extent possible, without the need for adaptation or specialized design"
 
-Usable by all people: 
+Usable by all people:
+
 - Challenge: define all people (how to make sure it’s functional for people with any type of impairment?)
 - **UD** (universl design) is for everyone!
 
 To the greatest extend possible:
+
 - Must work for as many people as possible regardless of struggles with: (1) upper body movement, strength, and/or sensation, (2) lower body movement strength, and/or sensation, (3) balance, (4) vision, (5) hearing, (6) cognition and memory, (7) activity tolerances, (8) speech and/or communication, (9) chemical sensitivities, (10) sensory tolerance, (11) needs for caregiver assistance, and (12) extremes in height and weight.
 
 Without need for adaptation or specialisation
+
 - Individuals do not have to change the way their typically interacts with something
 - Some people may still have significant functional needs that require specialized design. In those cases, UD is the foundation but further development is needed
 
@@ -189,6 +192,7 @@ Without need for adaptation or specialisation
 Originally created for architecture and industrial design but expanded to include digital products and services
 
 Based on seven universal design principles:
+
 1. equitable use;
 2. flexibility in use;
 3. simple and intuitive use;
@@ -203,6 +207,7 @@ Based on seven universal design principles:
 ## Inclusive design
 
 Design methodology that enables and draws on the full range of human diversity
+
 - Inclusive design means making your product available to as many users as possible (like UD, right?)
 - Focuses on the process of diversity. This is:
   - Is about engaging authentically with the diverse people and, therefore,
@@ -212,9 +217,10 @@ Design methodology that enables and draws on the full range of human diversity
 
 - Goal: ensure there are no barriers (technical, physical or cognitive) to serving products or services to someone
 - It also includes testing usability (usually involving users - user testing)
-- It could be seen as one piece of inclusive design 
+- It could be seen as one piece of inclusive design
 
-**Web accessibility**
+### Web accessibility
+
 - The inclusive practice of removing barriers that prevent interaction with, or access to, websites by people with disabilities
 - The degree to which a web system is usable by as many people as possible
 - A quality, - how easily and effectively a system or service can be accessed and used
