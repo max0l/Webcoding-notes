@@ -152,7 +152,7 @@ images are void elements (dont need a closing tag)
 
 ```html
 <img
-    src="https://picsum.photos/id/1022/6000/3376"
+    src="https://picsum.photos/id/1022"
     alt=“aurora boreal”
     title=“a picture of the northern lights"
 >

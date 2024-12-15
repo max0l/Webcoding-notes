@@ -60,6 +60,9 @@ To use the grid layout, we need to set the display property on the parent elemen
   grid-template-rows: 20% 1fr 20%;
   grid-template-columns: 100px max-content 1fr;
   /* none / auto / max-content / min-content / length / initial / inherit; */
+  /*shorthand:*/
+  grid-template: 20% 1fr 20% / 100px max-content 1fr;
+  /*rows then columns*/
 }
 ```
 
@@ -264,6 +267,7 @@ grid-row-start, grid-row-end, grid-column-start, grid-column-end
 .leftside {
   grid-column: left-start / left-end; /* named lines example*/
   grid-row: left-start / left-end;
+  grid-area: 1 / 1 / 3 / 6; /* row start / col start / row end / col end */
 }
 ```
 

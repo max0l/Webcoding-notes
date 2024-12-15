@@ -51,9 +51,13 @@ essential aspect.” – Tim Berners-Lee
 
 ## A closer looks at Tags
 
+\
+
 ![closer_look_at_tags.png](./assets/closer_look_at_tags.png)
 
 ## Attributes tell us more about Elements
+
+\
 
 ![closer_look_at_attributes.png](./assets/closer_look_at_attributes.png)
 

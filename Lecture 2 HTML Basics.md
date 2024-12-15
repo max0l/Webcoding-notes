@@ -203,13 +203,13 @@ Useful for addresses
    - Like a list of Definitions
    - Creates a list that is used to define terms
 
-    ```html
-    <dl>
-      <dt>Sashimi</dt>
-      <dd>Sliced raw fish</dd>
-      <dd>Similar to sushi</dd>
-    </dl>
-    ```
+```html
+<dl>
+  <dt>Sashimi</dt>
+  <dd>Sliced raw fish</dd>
+  <dd>Similar to sushi</dd>
+</dl>
+```
 
    - The Term `Sashimi` has 2 definitions (like a dictonary)
    - Dont use this as a Heading

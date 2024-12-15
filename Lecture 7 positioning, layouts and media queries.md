@@ -45,6 +45,7 @@ What are the differences of Pseudo Classes and Pseudo elements:
 ### Relative Positioning (position: relative)
 
 - This moves an element from the position it would be in normal flow, shifting it to the top, right, bottom, or left of where it would have been places
+- (relative to itself)
 - There will be space from where the element normally would be (normal flow)
 - Can lead to overlapping
 - `position: relative`
@@ -52,8 +53,9 @@ What are the differences of Pseudo Classes and Pseudo elements:
 ```css
 p.example {
   position: relative;
-  top: 10px; /*moves it 10px to the left*/
+  top: 10%; /*moves it 10% down from the top (relative to itself or containing (absolute) */
   left: 100px; /*shifts it 100px to the right (100px are added on the left side)*/
+  /*other props: right / bottom */
 }
 ```
 
@@ -199,6 +201,16 @@ Disadvantages:
 
 - It can be hard to implement
 - Share the disadvantages of the 3 approaches
+
+## Layout Modules
+
+CSS3 has different layout modules:
+- Block, for sections in a webpage
+- Inline, for text
+- Table, for two-dimensional table data
+- Positioned, for explicit position of an element
+- Flex, to design flexible responsive layout structure without using float or positioning. Single dimension.
+- Grid, it offers a grid-based layout system, with rows and columns without having to use floats and positioning. Two dimensions.
 
 ## Layout Patterns
 
